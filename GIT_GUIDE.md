@@ -73,9 +73,20 @@ git blame <file>             # 逐行查看代码是谁写的 (背锅位定位)
 
 ## 六、 仓库维护 (Maintenance)
 ```bash
-git gc                       # 压缩仓库，提升性能
+# 1. 查看/修改远程地址
+git remote -v
+git remote set-url origin <new-url>
+
+# 2. 清理幽灵分支 (核心)
+git fetch --prune            # 同步远程已删除的分支，修剪本地列表
+
+# 3. 解除已消失的远程关联 (针对 upstream is gone)
+git branch --unset-upstream <branch-name>
+
+# 4. 仓库体检
+git gc                       # 压缩仓库，提升性能 (Garbage Collection)
 git prune                    # 清理无用的孤立对象
-（git fetch --prune            # 核心：让本地远程分支列表与服务器保持一致）
+
 ```
 
 ## 七、 Commit 提交规范建议
