@@ -42,14 +42,14 @@ refactor(auth): simplify token validation
 
 | Type | 说明 | 示例 |
 |---|---|---|
-| feat | 新增功能 | `feat(user): add login api` |
-| perf | 性能优化 | `perf(cache): improve redis query speed` |
-| fix | 修复 Bug | `fix(order): fix payment issue` |
-| refactor | 代码重构 | `refactor(auth): simplify jwt logic` |
-| style | 代码格式调整 | `style(ui): format modal component` |
-| docs | 文档更新 | `docs(readme): update install guide` |
+| **feat** | 新增功能 | `feat(user): add login api` |
+| **perf** | 性能优化 | `perf(cache): improve redis query speed` |
+| **fix** | 修复 Bug | `fix(order): fix payment issue` |
+| **refactor** | 代码重构 | `refactor(auth): simplify jwt logic` |
+| **style** | 代码格式调整 | `style(ui): format modal component` |
+| **docs** | 文档更新 | `docs(readme): update install guide` |
 | test | 测试相关 | `test(user): add login tests` |
-| chore | 构建/依赖/工具修改（琐事） | `chore(deps): upgrade axios` |
+| **chore** | 构建/依赖/工具修改（琐事） | `chore(deps): upgrade axios` |
 | build | 构建系统修改 | `build(vite): optimize config` |
 | ci | CI/CD 配置修改 | `ci(actions): add deploy workflow` |
 | revert | 回滚提交 | `revert: revert payment changes` |
