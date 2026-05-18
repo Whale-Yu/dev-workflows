@@ -49,7 +49,7 @@ refactor(auth): simplify token validation
 | style | 代码格式调整 | `style(ui): format modal component` |
 | docs | 文档更新 | `docs(readme): update install guide` |
 | test | 测试相关 | `test(user): add login tests` |
-| chore | 构建/依赖/工具修改 | `chore(deps): upgrade axios` |
+| chore | 构建/依赖/工具修改（琐事） | `chore(deps): upgrade axios` |
 | build | 构建系统修改 | `build(vite): optimize config` |
 | ci | CI/CD 配置修改 | `ci(actions): add deploy workflow` |
 | revert | 回滚提交 | `revert: revert payment changes` |
