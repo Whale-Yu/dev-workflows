@@ -13,9 +13,17 @@
 | **Git规范** | Git 提交信息规范 | [GIT_COMMIT_GUIDE.md](./GIT_COMMIT_GUIDE.md) | Conventional Commits 规范，提升提交记录可读性与可追踪性 |
 | **gitignore模板** | .gitignore 模板 | [gitignore.md](./gitignore.md) | 全栈 & AI 工程师通用 .gitignore，涵盖 Python、前端、Docker、AI 模型等 |
 | **GitHub指南** | GitHub 操作指南 | [GITHUB.md](./GITHUB.md) | 分支、标签、Release 发布等 GitHub 协作工作流 |
-| **项目管理** | 项目开发追踪模板 | [ProjDev_TODO_TRACK.md](./ProjDev_TODO_TRACK.md) | 记录版本里程碑、待办任务、缺陷追踪的 Markdown 模板 |
-| **版本管理** | 语义化版本规范 | [SEMVER_GUIDE.md](./SEMVER_GUIDE.md) | vX.Y.Z 版本号命名规则与实际开发应用示例 |
+| **项目管理模板** | 项目开发追踪模板 | [ProjDev_TODO_TRACK.md](./ProjDev_TODO_TRACK.md) | 记录版本里程碑、待办任务、缺陷追踪的 Markdown 模板 |
+| **版本管理规范** | 语义化版本规范 | [SEMVER_GUIDE.md](./SEMVER_GUIDE.md) | vX.Y.Z 版本号命名规则与实际开发应用示例 |
 
+
+---
+
+## 版本迭代（Version）
+
+| 日期 | 版本 | 说明 |
+| :--- | :--- | :--- |
+| 🎉 2026-05-18 | [v1.0.0] | 新建仓库，初始版本：Git指南、Git规范、gitignore模板、GitHub指南、项目管理、版本管理规范 |
 
 ---
 
