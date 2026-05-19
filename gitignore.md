@@ -1,23 +1,21 @@
-# =========================================================
-# 🚀 Ultimate Full-Stack & AI Engineer .gitignore
-# 🚀 全栈 & AI 工程师通用 .gitignore
-#
-# Covers / 涵盖：
-# - Python / AI / Deep Learning
-# - FastAPI / Flask / Django
-# - Vue / Node.js / Frontend
-# - MySQL / SQLite
-# - VSCode / PyCharm / Trae
-# - Docker / Linux / Windows / macOS
-# - Jupyter / CUDA / YOLO / OpenMMLab
-# =========================================================
+# 🚀 Ultimate Full-Stack & AI Engineer `.gitignore`
 
+> 适用于：
+>
+> * Python / AI / 深度学习
+> * FastAPI / Flask / Django
+> * Vue / Node.js / 前端
+> * MySQL / SQLite
+> * VSCode / PyCharm / Trae
+> * Docker / Linux / Windows / macOS
+> * YOLO / OpenMMLab / CUDA
+> * 全栈开发 & 工程化项目
 
+---
 
-# =========================================================
-# 🔥 SYSTEM FILES / 系统文件
-# =========================================================
+# 🔥 System Files / 系统文件
 
+```gitignore
 # macOS
 .DS_Store
 .AppleDouble
@@ -38,13 +36,13 @@ Desktop.ini
 *.old
 *.swp
 *.swo
+```
 
+---
 
+# 🧠 Python / Python相关
 
-# =========================================================
-# 🧠 PYTHON / Python相关
-# =========================================================
-
+```gitignore
 # Python cache / Python缓存
 __pycache__/
 *.py[cod]
@@ -137,13 +135,13 @@ htmlcov/
 
 # Rope project
 .ropeproject/
+```
 
+---
 
+# 🤖 AI / Machine Learning / 深度学习
 
-# =========================================================
-# 🤖 AI / MACHINE LEARNING / 深度学习
-# =========================================================
-
+```gitignore
 # PyTorch models
 *.pt
 *.pth
@@ -214,13 +212,13 @@ coco/
 
 # CUDA compiled files
 *.cubin
+```
 
+---
 
+# 🎥 Media Files / 媒体文件
 
-# =========================================================
-# 🎥 MEDIA FILES / 媒体文件
-# =========================================================
-
+```gitignore
 # Videos / 视频
 *.mp4
 *.avi
@@ -236,13 +234,13 @@ coco/
 *.bmp
 *.gif
 *.webp
+```
 
+---
 
+# 🌐 Node.js / Frontend / 前端
 
-# =========================================================
-# 🌐 NODE.JS / FRONTEND / 前端
-# =========================================================
-
+```gitignore
 # Node modules
 node_modules/
 
@@ -290,13 +288,13 @@ coverage/
 package-lock.json
 yarn.lock
 pnpm-lock.yaml
+```
 
+---
 
+# ⚡ IDE / Editor / 开发工具
 
-# =========================================================
-# ⚡ IDE / EDITOR / 开发工具
-# =========================================================
-
+```gitignore
 # VSCode
 .vscode/
 .history/
@@ -321,13 +319,13 @@ pnpm-lock.yaml
 
 # JetBrains output
 out/
+```
 
+---
 
+# 🐳 Docker / 容器
 
-# =========================================================
-# 🐳 DOCKER / 容器
-# =========================================================
-
+```gitignore
 # Docker override
 docker-compose.override.yml
 
@@ -337,13 +335,13 @@ volumes/
 # Docker environment
 docker.env
 .docker/
+```
 
+---
 
+# 🌍 Django
 
-# =========================================================
-# 🌍 DJANGO
-# =========================================================
-
+```gitignore
 # SQLite database
 db.sqlite3
 *.sqlite3
@@ -359,13 +357,13 @@ staticfiles/
 # 数据库迁移文件（可按需开启）
 # */migrations/*
 # !*/migrations/__init__.py
+```
 
+---
 
+# ⚡ FastAPI / Flask
 
-# =========================================================
-# ⚡ FASTAPI / FLASK
-# =========================================================
-
+```gitignore
 # Flask instance
 instance/
 
@@ -374,13 +372,13 @@ fastapi_cache/
 
 # Flask assets cache
 .webassets-cache/
+```
 
+---
 
+# 🗄 Database / 数据库
 
-# =========================================================
-# 🗄 DATABASE / 数据库
-# =========================================================
-
+```gitignore
 # SQLite
 *.sqlite
 *.sqlite3
@@ -391,13 +389,13 @@ fastapi_cache/
 
 # Redis dump
 dump.rdb
+```
 
+---
 
+# 📦 Build / Release / 编译输出
 
-# =========================================================
-# 📦 BUILD / RELEASE / 编译输出
-# =========================================================
-
+```gitignore
 release/
 releases/
 debug/
@@ -416,13 +414,13 @@ temp/
 *.tar.gz
 *.7z
 *.rar
+```
 
+---
 
+# 🔐 Secrets / Certificates / 密钥证书
 
-# =========================================================
-# 🔐 SECRETS / CERTIFICATES / 密钥证书
-# =========================================================
-
+```gitignore
 # API keys
 apikeys/
 secrets/
@@ -445,13 +443,13 @@ google-services.json
 
 # Azure
 .azure/
+```
 
+---
 
+# ☁️ Cloud / Deployment / 云部署
 
-# =========================================================
-# ☁️ CLOUD / DEPLOYMENT / 云部署
-# =========================================================
-
+```gitignore
 # Serverless
 .serverless/
 
@@ -474,13 +472,13 @@ crash.log
 
 # Render
 .render/
+```
 
+---
 
+# 📊 Data Science / 数据科学
 
-# =========================================================
-# 📊 DATA SCIENCE / 数据科学
-# =========================================================
-
+```gitignore
 # Exported results
 exports/
 results/
@@ -491,13 +489,13 @@ results/
 # Data formats
 *.parquet
 *.feather
+```
 
+---
 
+# 🧪 Testing / 测试
 
-# =========================================================
-# 🧪 TESTING / 测试
-# =========================================================
-
+```gitignore
 nosetests.xml
 coverage.xml
 *.cover
@@ -508,13 +506,13 @@ coverage.xml
 # Playwright
 playwright-report/
 test-results/
+```
 
+---
 
-
-# =========================================================
 # 🛠 C/C++ / CUDA / 编译文件
-# =========================================================
 
+```gitignore
 *.o
 *.obj
 *.a
@@ -527,37 +525,37 @@ CMakeCache.txt
 compile_commands.json
 
 Makefile
+```
 
+---
 
+# 🧾 Documentation / 文档构建
 
-# =========================================================
-# 🧾 DOCUMENTATION / 文档构建
-# =========================================================
-
+```gitignore
 # Sphinx
 docs/_build/
 
 # MkDocs
 site/
+```
 
+---
 
+# 🔥 Git
 
-# =========================================================
-# 🔥 GIT
-# =========================================================
-
+```gitignore
 # Git patch files
 *.patch
 
 # Merge conflict backups
 *.orig
+```
 
+---
 
+# 🧹 Custom Outputs / 自定义输出目录
 
-# =========================================================
-# 🧹 CUSTOM OUTPUTS / 自定义输出目录
-# =========================================================
-
+```gitignore
 # General outputs
 outputs/
 output/
@@ -593,12 +591,13 @@ predictions/
 # Tracking results
 tracks/
 tracking_results/
+```
 
+---
 
+# ✅ Keep Placeholder Files / 保留占位文件
 
-# =========================================================
-# ✅ KEEP PLACEHOLDER FILES / 保留占位文件
-# =========================================================
-
+```gitignore
 !.gitkeep
 !.keep
+```
