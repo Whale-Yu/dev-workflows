@@ -1,4 +1,4 @@
-# Git Commit Guide
+# Git Commit 规范
 
 团队统一 Git Commit 规范，用于提升提交记录可读性、方便代码追踪、自动生成 CHANGELOG，以及提高 Code Review 效率。
 
