@@ -15,16 +15,10 @@
 | **GitHub指南** | GitHub 操作指南 | [GITHUB.md](./GITHUB.md) | 分支、标签、Release 发布等 GitHub 协作工作流 |
 | **项目管理模板** | 项目开发追踪模板 | [ProjDev_TODO_TRACK.md](./ProjDev_TODO_TRACK.md) | 记录版本里程碑、待办任务、缺陷追踪的 Markdown 模板 |
 | **版本管理规范** | 语义化版本规范 | [SEMVER_GUIDE.md](./SEMVER_GUIDE.md) | vX.Y.Z 版本号命名规则与实际开发应用示例 |
+| **前后端部署** | Cloudflare + Render 全栈部署技术手册 | [Cloudflare_Render_GUIDE.md](./Cloudflare_Render_GUIDE.md) | 详细部署 Cloudflare + Render 全栈应用的技术手册 |
 
 
 ---
 
-## 版本迭代（Version）
-
-| 日期 | 版本 | 说明 |
-| :--- | :--- | :--- |
-| 🎉 2026-05-18 | v1.0.0 | 新建仓库，初始版本：Git指南、Git规范、gitignore模板、GitHub指南、项目管理、版本管理规范 |
-
----
 
 **whale-yu** *Building and thinking...*
